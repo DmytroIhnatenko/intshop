@@ -21,76 +21,69 @@ class App extends React.Component {
       },
       {
         id: 2,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Brown Table',
+          img: 'Table.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 3,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Puff',
+          img: 'Puff.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 4,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Big chair',
+          img: 'Chair(1).jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 5,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Coffe Table',
+          img: 'Coffe Table.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 6,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Sofa',
+          img: 'Sofa.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 7,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Lamp',
+          img: 'Lamp.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 8,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Carpet',
+          img: 'Carpet.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
       {
         id: 9,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
+          title: 'Plant',
+          img: 'Plant.jpg',
           desc: 'Description',
           category: 'Chairs',
           price: '49.99'
       },
-      {
-        id: 10,
-          title: 'Gray chair',
-          img: 'chair-grey.jpeg',
-          desc: 'Description',
-          category: 'Chairs',
-          price: '49.99'
-      },
+     
       ]
     }
   }
