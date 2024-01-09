@@ -18,6 +18,10 @@ body{
     margin: 50px auto;
 }
 
+header{
+    position: relative;
+}
+
 header .logo{
    font-weight: 600;
    font-size: 20px; 
@@ -57,6 +61,31 @@ header .presentation::after{
     color: #fff;
 }
 
+header .shop-cart-button
+{
+    float: right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active{
+    color: #dc3d3d;
+    transform: scale(1.5);
+}
+
+header .shop-cart{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 450px;
+    min-height: 100px;
+    background: #d41616;
+    -webkit-box-shadow: -1px 6px 28px 15px rgba(66, 68, 90, 0.47);
+    -moz-box-shadow: -1px 6px 28px 15px rgba(66, 68, 90, 0.47);
+    box-shadow: -1px 6px 28px 15px rgba(66, 68, 90, 0.47);
+    z-index: 1000;
+}
 
 header .presentation::before{
     content: 'As u wish';
